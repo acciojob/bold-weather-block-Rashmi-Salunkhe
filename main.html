@@ -1,16 +1,87 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container">
+        <!-- Top Section with Location, Weather Condition, Humidity -->
+        <div class="weather-info">
+            <div class="location-info">
+                <h1>Mumbai</h1>
+                <p>Sunny</p>
+                <p>78% Humidity</p>
+            </div>
+            <div class="weather-icon">
+                <img src="weather-icon-sunny.png" alt="Sunny Weather Icon">
+            </div>
+        </div>
 
+        <!-- Weather Block (Daily Forecast) -->
+        <div class="weather-block">
+            <div class="weather-item">
+                <p>Tomorrow</p>
+                <img src="cloudy.png" alt="Cloudy">
+                <p class="item-temp">
+                    <span class="item-temp-number1">32°C</span> / 24°C
+                </p>
+                <p>Cloudy</p>
+            </div>
+            <div class="weather-item">
+                <p>3rd Nov</p>
+                <img src="rainy.png" alt="Rainy">
+                <p class="item-temp">
+                    <span class="item-temp-number1">26°C</span> / 20°C
+                </p>
+                <p>Rainy</p>
+            </div>
+            <div class="weather-item">
+                <p>4th Nov</p>
+                <img src="sunny.png" alt="Sunny">
+                <p class="item-temp">
+                    <span class="item-temp-number1">48°C</span> / 36°C
+                </p>
+                <p>Sunny</p>
+            </div>
+            <div class="weather-item">
+                <p>5th Nov</p>
+                <img src="rainy.png" alt="Rainy">
+                <p class="item-temp">
+                    <span class="item-temp-number1">26°C</span> / 18°C
+                </p>
+                <p>Rainy</p>
+            </div>
+            <div class="weather-item">
+                <p>6th Nov</p>
+                <img src="sunny.png" alt="Sunny">
+                <p class="item-temp">
+                    <span class="item-temp-number1">44°C</span> / 32°C
+                </p>
+                <p>Sunny</p>
+            </div>
+            <div class="weather-item">
+                <p>7th Nov</p>
+                <img src="cloudy.png" alt="Cloudy">
+                <p class="item-temp">
+                    <span class="item-temp-number1">35°C</span> / 26°C
+                </p>
+                <p>Cloudy</p>
+            </div>
+            <div class="weather-item">
+                <p>8th Nov</p>
+                <img src="rainy.png" alt="Rainy">
+                <p class="item-temp">
+                    <span class="item-temp-number1">29°C</span> / 22°C
+                </p>
+                <p>Rainy</p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

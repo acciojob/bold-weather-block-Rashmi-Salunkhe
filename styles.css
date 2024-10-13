@@ -1,1 +1,82 @@
-/*  your css code here. If applicable */
+/* Style for gradient background */
+body {
+    background: linear-gradient(to right, #b96fa1, #5a3f8c);
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 20px;
+}
+
+/* Weather Info Block */
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.location-info h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.location-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Weather icon */
+.weather-icon img {
+    width: 100px;
+}
+
+/* Weather block - displays weather items */
+.weather-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.weather-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    width: 120px;
+    text-align: center;
+}
+
+/* Item temperature styling */
+.item-temp {
+    font-size: 18px;
+    color: white;
+    margin: 10px 0;
+}
+
+.item-temp-number1 {
+    font-weight: 600;
+}
+
+/* Icons for weather conditions */
+.weather-item img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Media query for row layout when screen width is at least 900px */
+@media screen and (min-width: 900px) {
+    .weather-block {
+        flex-direction: row;
+    }
+}
